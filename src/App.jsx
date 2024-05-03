@@ -21,6 +21,7 @@ function App() {
           onChange={(event) => setValue(event.target.value)}
         />
       </div>
+      {/*  */}
       <button onClick={() => setState(state + 1)}>버튼 클릭</button>
       <button onClick={() => setState(state - 1)}>버튼 클릭</button>
 
